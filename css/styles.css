@@ -68,6 +68,7 @@ img {
   color: #2e2f42;
   font-weight: 500;
   line-height: 1.5;
+  display: block;
   
   letter-spacing: 0.02em;
   padding: 24px 0;
@@ -99,6 +100,8 @@ img {
 
 ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 .section-one {
   padding: 188px 0;
@@ -202,6 +205,7 @@ ul {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin: 0;
 } 
 /*початок третьої секції*/
 .our-teamname {
