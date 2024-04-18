@@ -379,7 +379,7 @@ g .section-three {
 }
 
 .ul-portfolio:hover .portfolio-text .portfolio-p {
-  transform: translateY(0%);
+  transform: translateY(-5px);
 }
 /* РОЗМІЩЕННЯ RELETIV */
 .portfolio-card {
