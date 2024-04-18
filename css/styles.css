@@ -382,6 +382,11 @@ g .section-three {
   transform: translateY(0%);
 }
 
+.portfolio-card {
+  position:relative;
+  overflow: hidden;
+}
+
 .portfolio-name {
   font-weight: 500;
   font-size: 20px;
