@@ -378,7 +378,7 @@ g .section-three {
 
 }
 
-.ul-portfolio:hover .portfolio-text {
+.ul-portfolio:hover .portfolio-p {
   transform: translateY(0%);
 }
 
