@@ -494,13 +494,20 @@ g .section-three {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition:  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   
  }
 
+ .bottom-icon-link:hover {background-color: #31d0aa;}
+.bottom-icon-link:focus {background-color: #31d0aa;}
  .bottom-social-item {
   width: 40px;
   height: 40px;
   
+ }
+
+ .bottom-social {
+  fill: #f4f4fd;
  }
 
 
