@@ -486,14 +486,7 @@ g .section-three {
   
  }
 
- .bottom-icon-list {
-  width: 40px;
-  height: 40px;
-  margin: 0;
-  padding: 0;
- }
-
- .bottom-social {
+ .bottom-icon-link {
   width: 100%;
   height: 100%;
   background-color: #4d5ae5;
@@ -501,6 +494,13 @@ g .section-three {
   display: flex;
   align-items: center;
   justify-content: center;
+  
+ }
+
+ .bottom-icon-link {
+  width: 40px;
+  height: 40px;
+  
  }
 
 
