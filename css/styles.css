@@ -469,37 +469,50 @@ g .section-three {
 
 
 
-.icon-text{
-  font-size: 16px;
+.bottom-icon {
+  display: flex;
+  align-items: baseline;
+}
+
+.container-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom-icon-link {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-link svg {
+  fill: #f4f4fd;
+}
+
+.icon-link:hover {
+  background-color: #31d0aa;
+}
+
+.icon-link:focus {
+  background-color: #31d0aa;
+}
+
+.bottom-text {
   font-weight: 500;
-  color: #FFFFFF;
-  letter-spacing: 0.02em;
+  font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
   margin-bottom: 16px;
 }
 
-.bottom-icon-list{
-display: flex;
-gap: 16px;
-width: 40px;
-height: 40px;
-
+.bottom-icon-list {
+  display: flex;
+  gap: 16px;
 }
 
-.bottom-icon-link{
-width: 100%;
-height: 100%;
-background-color: #4d5ae5;
-border-radius: 50%;
-display: flex;
-align-items: center;
-justify-content: center;
-
-
-}
-.bottom-icon-link:hover:focus {
-  background-color: #31d0aa;
-}
-.bottom-social {
-  fill:#f4f4fd;
+.bottom-page {
+  margin-right: 120px;
 }
