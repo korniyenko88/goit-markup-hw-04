@@ -380,13 +380,15 @@ g .section-three {
 }
 
 .ul-portfolio:hover .portfolio-text .portfolio-p {
-  transform: translateY(0);
+  transform: translateY(0%);
 }
 /* РОЗМІЩЕННЯ RELETIV */
+.ul-portfolio { position: relative;}
 .portfolio-card {
   position:relative;
   overflow: hidden;
 }
+
 .card-text{
   margin: 0;
   position: absolute;
