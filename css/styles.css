@@ -379,7 +379,7 @@ g .section-three {
 
 }
 
-.ul-portfolio:hover .portfolio-text .portfolio-p {
+.ul-portfolio:hover .card-text {
   transform: translateY(0%);
 }
 /* РОЗМІЩЕННЯ RELETIV */
@@ -392,8 +392,7 @@ g .section-three {
 .card-text{
   margin: 0;
   position: absolute;
-  top: 100%;
-  left: 0;
+  top: 0;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
