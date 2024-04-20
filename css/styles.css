@@ -328,8 +328,8 @@ g .section-three {
   background-color: #404bbf;
 }
 
-.icon {
-  fill: var(--color2, #f4f4fd);
+.section-thre-icon {
+  fill: #f4f4fd;
   
 }
 
@@ -380,7 +380,7 @@ g .section-three {
 }
 
 .ul-portfolio:hover .portfolio-text .portfolio-p {
-  transform: translateY(-5px);
+  transform: translateY(0);
 }
 /* РОЗМІЩЕННЯ RELETIV */
 .portfolio-card {
