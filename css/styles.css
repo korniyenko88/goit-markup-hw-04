@@ -9,7 +9,8 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+p {
   margin: 0;
   padding: 0;
 }
@@ -245,6 +246,9 @@ border: 1px solid #8e8f99;
 margin-bottom: 8px;
 
 }
+
+
+
 
 
 
@@ -511,5 +515,6 @@ g .section-three {
  .bottom-social {
   fill: #f4f4fd;
  }
+
 
 
